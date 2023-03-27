@@ -1,4 +1,5 @@
 from random import randint
+from graphic_arts.start_game_banner import run_screensaver
 
 
 def attack(char_name: str, char_class: str) -> str:
@@ -74,7 +75,7 @@ def choice_char_class() -> str:
         if char_class == 'warrior':
             print('Воитель — дерзкий воин ближнего боя.'
                   'Сильный, выносливый и отважный.')
-        if char_class == 'mage':
+        if char_class == 'g':
             print('Маг — находчивый воин дальнего боя.'
                   'Обладает высоким интеллектом.')
         if char_class == 'healer':
@@ -99,4 +100,3 @@ def main() -> None:
 
 
 main()
-# можно удалить
